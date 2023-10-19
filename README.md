@@ -142,6 +142,23 @@ If everything is working properly, you will get the following output:
 Hello, world!
 ```
 
+Out put 
+
+```
+haris@haris-HP-Pavilion-Laptop-15t-xx000:/$ ros2 run demo_nodes_cpp talker
+[INFO] [1697694405.502592809] [talker]: Publishing: 'Hello World: 1'
+[INFO] [1697694406.502765763] [talker]: Publishing: 'Hello World: 2'
+[INFO] [1697694407.502474508] [talker]: Publishing: 'Hello World: 3'
+[INFO] [1697694408.502473969] [talker]: Publishing: 'Hello World: 4'
+[INFO] [1697694409.502801220] [talker]: Publishing: 'Hello World: 5'
+[INFO] [1697694410.502433997] [talker]: Publishing: 'Hello World: 6'
+[INFO] [1697694411.502823583] [talker]: Publishing: 'Hello World: 7'
+[INFO] [1697694412.502501393] [talker]: Publishing: 'Hello World: 8'
+[INFO] [1697694413.502524824] [talker]: Publishing: 'Hello World: 9'
+[INFO] [1697694414.502676671] [talker]: Publishing: 'Hello World: 10'
+
+```
+
 Alternatively, switch to the /opt/ros/humble/lib/demo_nodes_py/ directory:
 
 ```
@@ -160,4 +177,21 @@ You should get the following output:
 I heard: Hello, world!
 ```
 
+Out put
+
+```
+haris@haris-HP-Pavilion-Laptop-15t-xx000:/$ cd /opt/ros/humble/lib/demo_nodes_py/
+haris@haris-HP-Pavilion-Laptop-15t-xx000:/opt/ros/humble/lib/demo_nodes_py$ ros2 run demo_nodes_py listener
+[INFO] [1697694433.517100170] [listener]: I heard: [Hello World: 29]
+[INFO] [1697694433.671404661] [listener]: I heard: [Hello World: 841]
+[INFO] [1697694434.504975467] [listener]: I heard: [Hello World: 30]
+[INFO] [1697694434.671755507] [listener]: I heard: [Hello World: 842]
+[INFO] [1697694435.504892307] [listener]: I heard: [Hello World: 31]
+[INFO] [1697694435.671601321] [listener]: I heard: [Hello World: 843]
+[INFO] [1697694436.505007983] [listener]: I heard: [Hello World: 32]
+[INFO] [1697694436.671500744] [listener]: I heard: [Hello World: 844]
+[INFO] [1697694437.504984591] [listener]: I heard: [Hello World: 33]
+[INFO] [1697694437.671793937] [listener]: I heard: [Hello World: 845]
+
+```
 Once you have successfully completed these steps, you will have ROS 2 Humble installed and ready to use on your Ubuntu 22.04 system.
