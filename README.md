@@ -1,7 +1,25 @@
 # installation_ros2_humble_desktop
 ros2_humble
 
+# Things-You-Need-Before-Starting-With-ROS
+Things You Need Before Starting With ROS
+Git
+```
+sudo apt install git
+```
+VSCode
+remote development  extension install
+```
+sudo snap install --classic code
 
+```
+Arduino IDE
+
+open the link and follow commands
+
+```
+https://docs.ros.org/en/humble/Installation/Alternatives/Ubuntu-Development-Setup.html#id5
+```
 Here is a GitHub text for the above topics:
 
 **Title:** ROS 2 Humble Installation on Ubuntu 22.04
